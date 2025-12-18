@@ -272,6 +272,19 @@ These extensions are under development and will be presented in future work.
 }
 ```
 
+## Predicted Cross-Domain Isomorphisms
+
+The geometric constants derived here for $N=3$ shape space are predicted to govern limits in other relational systems, specifically Cosmology and Neuroscience ("The Geometry of Experience"):
+
+| Domain | Constant | Geometric Source | Prediction | Value |
+| :--- | :--- | :--- | :--- | :--- |
+| **Particle Physics** | $\theta_{Koide}$ | $2 J_{min}^2$ | Lepton Mass Phases | $2/9$ rad |
+| **Neuroscience** | $\theta_{bind}$ | $2 J_{min}^2$ | **Gamma Synchrony Limit** ($\Delta t = \theta / 2\pi f$) | **0.88 ms** |
+| **Psychophysics** | $\eta_{weber}$ | $J_{min}^2 / \ln(2)$ | **Temporal Weber Fraction** | **~6.25%** |
+| **Cosmology** | $H(z)$ | Geodesic | **Linear Expansion** ($a \propto t$) | $R_h = ct$ |
+
+
+
 ## Acknowledgments
 
 The shape space framework builds on foundational work by Julian Barbour on relational mechanics and scale invariance. The Hall-Reginatto formalism provides the quantum mechanical foundation. The novel contributions of this work are: the 2N = N! selection principle, the derived bridge ℏ = J_min, the quantum amplification theorem, and the geometric derivations of fundamental constants.
