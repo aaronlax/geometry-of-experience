@@ -6,7 +6,33 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
-## [Unreleased]
+## [2.0.0] - 2026-01-31
+
+### Added
+- **Theorem 6: Parafermion Universality** — η = 1/15 from Z₃ CFT (k=3)
+- **Theorem 7: Born Rule Derivation** — P = |ψ|² from Fisher-Fubini compatibility
+- **Theorem 8: Fibonacci Fusion** — τ × τ = 1 + τ from collision topology
+- **Theorem 9: Consciousness Framework** — Self as topological defect
+- `proofs/parafermion_eta.py` — Derives η = 1/15 from SU(2)_k theory
+- `proofs/born_rule_derivation.py` — Proves Born rule from metric compatibility
+- `RELEASE_NOTES_v2.md` — Full documentation of new claims
+- Prior art comparison with Nielsen (TUFT)
+
+### New Predictions
+| Prediction | Formula | Value | Status |
+|------------|---------|-------|--------|
+| Geometric friction | η = 1/15 | 0.0667 | NEW |
+| MaxEnt exponent | β = η(1+h_σ) | 0.071 | Matches observation |
+| Fibonacci quantum dimension | d_τ = φ | 1.618 | Exact |
+
+### Framework Extensions
+- Z₃ parafermion universality class identification
+- Information-geometric derivation of Born rule
+- Consciousness as fiber holonomy
+
+---
+
+## [1.1.0] - 2025-12-05 (Unreleased additions)
 
 ### Added
 - `proofs/koide_relations.py` - Derives Koide Q and θ from J_min
