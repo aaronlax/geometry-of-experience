@@ -2,7 +2,20 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This repository contains the mathematical foundations for deriving fundamental physical constants from the information geometry of N=3 relational shape space.
+This repository contains public prior-art notes and proof scripts for the N=3 relational shape-space program.
+
+## Scope
+
+This repo is a public safety-net mirror for dated claims. It is not the full canonical RIG vault.
+
+Current public scope:
+- N=3 selection, bridge equation, and constant-derivation line
+- Hopf / Fisher / Berry / parafermion proofs that are stable enough to timestamp publicly
+- Dated research notes for active lines that are not yet formal papers
+
+Current boundary:
+- The constants program is documented here
+- The newer activation / retention / reconciliation line is public here only as a dated note, not as a full derivation package
 
 ## Key Results
 
@@ -12,6 +25,20 @@ This repository contains the mathematical foundations for deriving fundamental p
 | Weak mixing angle | sin²θ_W = J_min × ln(2) | 0.23105 | 0.23122 | 0.07% |
 | Tsirelson bound | 4 × √(N × J_min / 2) | 2√2 | 2√2 | exact |
 | Quantum amplification | E_quantum / E_classical | 3 | 3 | exact |
+
+---
+
+## Current Research Frontier
+
+As of 2026-03-28, the active bridge beyond the constants program is:
+
+1. Bare endogenous self-loop gives activation, not memory.
+2. Bare measurement channel gives retention, not activation.
+3. Their composite gives both pointer preservation and coherence decay.
+4. A scalar write-strength field can be built from activation and retention together.
+5. Alignment of that field with the shape-space complexity gradient is structurally promising, but the parameter map is not yet fully derived.
+
+See [paper/structural_bridge_note_2026_03.md](paper/structural_bridge_note_2026_03.md).
 
 ---
 
@@ -154,13 +181,14 @@ See [`proofs/hbar_derivation.py`](proofs/hbar_derivation.py).
 ## Repository Structure
 
 ```
-n3-shape-space-public/
+geometry-of-experience/
 ├── README.md                              # This file
 ├── CONFIDENCE_TIERS.md                    # Epistemological status of all claims
 ├── CHANGELOG.md                           # Version history (no post-hoc edits)
 ├── LICENSE                                # MIT License
 ├── paper/
 │   └── emergence_of_constants.md          # Main paper
+│   └── structural_bridge_note_2026_03.md  # Dated research note
 ├── proofs/
 │   ├── hessian_eigenvalue_n3.py           # Theorem 2: λ_max/λ_min = 3
 │   ├── hbar_derivation.py                 # Theorem 4: ℏ = J_min from first principles

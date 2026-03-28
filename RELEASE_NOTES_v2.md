@@ -12,7 +12,7 @@ This release extends the N=3 shape space framework with:
 1. **Universality class identification:** RIG belongs to Z₃ parafermion CFT (k=3)
 2. **Fibonacci fusion rules** from collision topology
 3. **Born rule derivation** from information geometry
-4. **Consciousness application** — the Self as topological defect
+4. **Topological-self interpretation** — the Self as topological defect
 
 ---
 
@@ -111,18 +111,21 @@ The derivation chains are independent. This framework's unique contributions are
 
 ---
 
-## Files Added
+## Public Files In This Snapshot
 
 ```
 proofs/
-├── parafermion_eta.py          # η = 1/15 from SU(2)_3
+├── parafermion_eta.py          # η = 1/15 from SU(2)_3 scaling data
+├── z3_parafermion_eta.py       # Z₃ / Ising comparison and η = 1/15 check
 ├── born_rule_derivation.py     # Fisher = 4 × Fubini-Study
-├── fibonacci_fusion.py         # τ × τ = 1 + τ mechanism
-└── consciousness_defect.py     # Holonomy as Self
-
-docs/
-└── CONSCIOUSNESS_FRAMEWORK.md  # Full ontological framework
+├── berry_phase_holonomy.py     # Berry phase from shape-space holonomy
+└── modular_data_mcg.py         # Modular data from mapping class group action
 ```
+
+This public repo does not currently include a standalone `fibonacci_fusion.py`,
+`consciousness_defect.py`, or `docs/CONSCIOUSNESS_FRAMEWORK.md`. Those themes are
+partially represented here through the Berry / modular / parafermion proof set and
+remain more fully developed in the private canonical vault.
 
 ---
 

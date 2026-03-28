@@ -30,6 +30,15 @@ This document acknowledges foundational work that this framework builds upon, an
 | **Wootters, W.K.** | 1981 | Statistical distance in Hilbert space | Fisher-Fubini connection |
 | **Braunstein & Caves** | 1994 | Geometry of quantum states | Metric compatibility |
 
+### Measurement, Decoherence, and Gravity
+
+| Author | Year | Contribution | How We Use It |
+|--------|------|--------------|---------------|
+| **Zurek, W.H.** | 2003 | Decoherence and pointer states | Measurement-channel baseline |
+| **Gorini-Kossakowski-Sudarshan / Lindblad** | 1976 | Open-system dynamical semigroups | Channel-level retention structure |
+| **Bisognano & Wichmann** | 1976 | Modular Hamiltonian for Rindler wedges | Universality target for coarse-grained costs |
+| **Jacobson, T.** | 1995, 2016 | Einstein equations from Clausius / entanglement equilibrium | Gravity-side reconciliation baseline |
+
 ### Particle Physics
 
 | Author | Year | Contribution | How We Use It |
@@ -86,6 +95,14 @@ The following claims appear to have **no prior art** and are original to this fr
 
 - Prior work: Connection known (Wootters, Braunstein-Caves)
 - Our contribution: Explicit uniqueness proof and RIG integration
+
+### 6. Activation / Retention / Reconciliation Split (NOVEL STRUCTURAL CLAIM)
+
+> Bare self-reference gives activation; bare measurement gives retention; the composite gives memory-capable structure; gravity is the candidate reconciliation layer for many such local records.
+
+- **Prior work**: Decoherence, pointer states, modular flow, and Jacobson gravity all exist separately
+- **Our contribution**: The explicit structural split between activation, retention, and reconciliation inside one N=3 / Hopf / measurement framework
+- **Public status here**: Timestamped as a research note, not a closed derivation
 
 ---
 

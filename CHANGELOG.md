@@ -6,6 +6,22 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [2.1.0] - 2026-03-28
+
+### Added
+- `paper/structural_bridge_note_2026_03.md` - dated note on the activation / retention / reconciliation line
+
+### Changed
+- README now states repo scope explicitly: public prior-art mirror, not full canonical vault
+- RELEASE_NOTES_v2.md corrected to match files actually present in the repository
+- PRIOR_ART.md extended with the measurement / decoherence / gravity-bridge prior-art baseline
+
+### Notes
+- The new structural-bridge note is a timestamped research update, not a full derivation package
+- The open gap is still geometric parameter derivation, not architecture
+
+---
+
 ## [2.0.0] - 2026-01-31
 
 ### Added
