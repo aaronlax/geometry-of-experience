@@ -6,6 +6,21 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [2.1.1] - 2026-04-06
+
+### Added
+- `paper/neutral_three_body_coulomb_note_2026_04.md` - dated note on neutral pairwise Coulomb critical shapes on the `N=3` preshape sphere
+- `paper/pairwise_vs_collective_n3_note_2026_04.md` - dated note on the structural split between pairwise and collective observables on `N=3` shape space
+
+### Changed
+- README updated to link the new `N=3` geometry notes
+
+### Notes
+- These notes are public baseline geometry documents, not a many-body hydrogen package
+- They are intended to separate stable `N=3` shape-space structure from internal operator-side work
+
+---
+
 ## [2.1.0] - 2026-03-28
 
 ### Added

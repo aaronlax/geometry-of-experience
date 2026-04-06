@@ -12,6 +12,7 @@ Current public scope:
 - N=3 selection, bridge equation, and constant-derivation line
 - Hopf / Fisher / Berry / parafermion proofs that are stable enough to timestamp publicly
 - Dated research notes for active lines that are not yet formal papers
+- Small `N=3` geometry notes that clarify pairwise baselines and shape-sphere structure
 
 Current boundary:
 - The constants program is documented here
@@ -39,6 +40,10 @@ As of 2026-03-28, the active bridge beyond the constants program is:
 5. Alignment of that field with the shape-space complexity gradient is structurally promising, but the parameter map is not yet fully derived.
 
 See [paper/structural_bridge_note_2026_03.md](paper/structural_bridge_note_2026_03.md).
+
+Recent `N=3` geometry notes:
+- [paper/neutral_three_body_coulomb_note_2026_04.md](paper/neutral_three_body_coulomb_note_2026_04.md)
+- [paper/pairwise_vs_collective_n3_note_2026_04.md](paper/pairwise_vs_collective_n3_note_2026_04.md)
 
 ---
 
@@ -189,6 +194,8 @@ geometry-of-experience/
 ├── paper/
 │   └── emergence_of_constants.md          # Main paper
 │   └── structural_bridge_note_2026_03.md  # Dated research note
+│   └── neutral_three_body_coulomb_note_2026_04.md   # Neutral pairwise Coulomb baseline on N=3
+│   └── pairwise_vs_collective_n3_note_2026_04.md    # Structural split on N=3 shape space
 ├── proofs/
 │   ├── hessian_eigenvalue_n3.py           # Theorem 2: λ_max/λ_min = 3
 │   ├── hbar_derivation.py                 # Theorem 4: ℏ = J_min from first principles
