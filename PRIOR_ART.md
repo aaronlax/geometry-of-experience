@@ -104,6 +104,48 @@ The following claims appear to have **no prior art** and are original to this fr
 - **Our contribution**: The explicit structural split between activation, retention, and reconciliation inside one N=3 / Hopf / measurement framework
 - **Public status here**: Timestamped as a research note, not a closed derivation
 
+### 7. Measurement Algebra Factorization (NOVEL)
+
+> Pointer projectors = minimal central projections of the Heisenberg fixed-point center: Ptr(Φ) = MCP(Z(Fix_H(Φ))).
+
+- **Prior work**: Zurek einselection (dynamical), Frigerio/Bratteli-Robinson (algebraic framework exists)
+- **Our contribution**: Clean factorization into topological (directions) and continuous (rates) layers; pointer selection is combinatorial, not dynamical
+
+### 8. Collision-Limit KZ Chain (NOVEL)
+
+> One regularity assumption (Fuchsian singularity at collision) forces the full chain: KZ connection → k=3 → Fibonacci braiding → universal QC.
+
+- **Prior work**: KZ equation (Knizhnik-Zamolodchikov 1984), Fibonacci anyons (Freedman-Larsen-Wang 2002), Kohno's theorem (1987)
+- **Our contribution**: Identifying Fuchsian regularity at binary collision as the single physical assumption activating the entire chain on N=3 shape space; three independent proofs that k=3
+
+### 9. Three Generations from Collision Topology (NOVEL)
+
+> b₁(S² \ {4 collision points}) = 3 and |π₁(L(3,1))| = 3 independently force exactly three fermion generations.
+
+- **Prior work**: Topological arguments for generations exist (various, inconclusive)
+- **Our contribution**: Two independent topological invariants on N=3 collision-excised shape space both yielding 3; Koide angle θ = 2/9 as η-invariant of L(3,1)
+
+### 10. Bell Evasion from Hopf Linking (NOVEL CLASSIFICATION)
+
+> Bell violations arise from outcome independence failure via Hopf fiber linking numbers (irreducible bipartite topological invariant). RIG falls in the PI-yes, OI-no cell of the Jarrett-Shimony table.
+
+- **Prior work**: Jarrett-Shimony decomposition (1984), Hopf fibration in physics (Urbantke 2003)
+- **Our contribution**: Explicit identification of Hopf linking as the geometric mechanism for OI violation
+
+### 11. Emergent Gravity from Fisher Metric (NOVEL CHAIN)
+
+> G = J²_min × (ℏc/m²_P) and a₀ = (c²/5)√(Λ/3) from Fisher metric on shape space.
+
+- **Prior work**: Jacobson (1995, EFE from thermodynamics), Verlinde (2011, entropic gravity), Frieden (1998, Fisher-based gravity)
+- **Our contribution**: Specific identification chain from J_min → G and η/J_min → MOND scale; zero free parameters
+
+### 12. Collision-Limit Spectral Framework for Hydrogen (NOVEL PROGRAM)
+
+> Hydrogen-like spectral structure on the N=3 McGehee cone via non-Abelian KZ connection, with systematic closure of all Abelian routes.
+
+- **Prior work**: McGehee regularization (1974), hyperspherical methods (Lin 1995, Macek 1968)
+- **Our contribution**: The three-track program (variety / cone operator / hidden-symmetry matching); systematic null results on scalar/Abelian sectors; KZ bundle with physical-mass pullback
+
 ---
 
 ## Concurrent Work: Nielsen's TUFT
@@ -137,6 +179,7 @@ This is parallel discovery, not derivation from one another.
 |------|--------|-------------------|
 | 2025-12-05 | GitHub d25e364 | 2N=N!, J_min, α formula, Tsirelson |
 | 2026-01-31 | This release | η=1/15, Born rule, Fibonacci |
+| 2026-04-08 | v3.0.0 | Measurement algebra, KZ chain, generations, Bell evasion, emergent gravity, collision-limit spectral program |
 
 ---
 

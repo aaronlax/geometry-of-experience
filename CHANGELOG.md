@@ -6,6 +6,34 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [3.0.0] - 2026-04-08
+
+### Added — Measurement Theory
+- `paper/measurement_algebra_factorization_note_2026_04.md` — Pointer directions from Kraus support graph via Heisenberg fixed-point center
+- `proofs/measurement_algebra_factorization.py` — Computational verification of the support/rate factorization
+- Updated `proofs/born_rule_derivation.py` with full Cramér-Rao saturation theorem (F_C(α,θ) angular dependence proof)
+
+### Added — Collision-Limit Spectral Theory
+- `paper/collision_limit_spectral_structure_note_2026_04.md` — McGehee cone spectral theory, KZ Fibonacci bundle, systematic Abelian null results, hidden-symmetry matching framework
+- `paper/chern_simons_from_collision_regularity_note_2026_04.md` — Complete chain: Fuchsian regularity → KZ → k=3 → SU(2)₃ MTC → Fibonacci → universal QC
+
+### Added — Broader Prior Art
+- `paper/generations_from_collision_topology_note_2026_04.md` — Three generations from b₁=3 on collision-excised shape space and |π₁(L(3,1))|=3
+- `paper/bell_evasion_hopf_linking_note_2026_04.md` — Bell violations from Hopf fiber linking (OI failure, PI preserved)
+- `paper/emergent_gravity_fisher_note_2026_04.md` — G from J²_min, MOND a₀ from η/J_min, Λ from (1-J_min)
+
+### Changed
+- PRIOR_ART.md extended with 6 new novel contribution entries
+- CONFIDENCE_TIERS.md updated for new claims
+- README updated with new repo structure and research frontier
+
+### Notes
+- This is a major prior-art stamp driven by publication-pipeline urgency
+- The collision-limit spectral framework is Aaron's independent contribution, distinct from the Barbour/Lourenço central-configuration collaboration
+- The measurement algebra + Born rule together constitute a complete geometric measurement theory
+
+---
+
 ## [2.1.1] - 2026-04-06
 
 ### Added

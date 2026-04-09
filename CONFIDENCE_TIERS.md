@@ -38,6 +38,12 @@ These combine shape space geometry with established mathematical facts.
 N=3 → S² (shape space) → Hopf fibration (unique bundle) → S³ (fiber) → unit quaternions → dim(ℍ) = 4
 ```
 
+| **Measurement algebra factorization** | Ptr(Φ) = MCP(Z(Fix_H(Φ))) | Fixed-point algebra theory | `measurement_algebra_factorization.py` |
+| **Born rule saturation** | F_C = F_Q iff α=1 (power-law family) | Cramér-Rao bound | `born_rule_derivation.py` |
+| **KZ from collision regularity** | Fuchsian → KZ → k=3 → Fibonacci | Riemann-Hilbert, Katz rigidity, Kohno | `chern_simons_from_collision_regularity_note` |
+| **Three generations** | b₁(S²\{4 pts}) = 3, \|π₁(L(3,1))\| = 3 | Mayer-Vietoris, Lens space topology | `generations_from_collision_topology_note` |
+| **Bell evasion** | OI violated via Hopf linking number | Gauss linking integral | `bell_evasion_hopf_linking_note` |
+
 **Status**: These follow from geometry combined with established topology and algebra.
 
 ### Predictions in this tier:
@@ -58,6 +64,8 @@ These match data but have heuristic rather than rigorous derivations.
 | Claim | Statement | Status | Issue |
 |-------|-----------|--------|-------|
 | **Y-junction = 34 MeV** | Baryon topology cost | PATTERN MATCH | Matches data but derivation is heuristic |
+| **Emergent gravity** | G = J²_min(ℏc/m²_P), a₀ = (c²/5)√(Λ/3) | PROPOSED | Fisher→Raychaudhuri chain is structural but not rigorous |
+| **Collision-limit hydrogen** | KZ bundle on McGehee cone → spectral structure | OPEN | Abelian routes closed; non-Abelian Stage 2B open |
 
 **Note**: The factor 4 has been **promoted to Tier 2**. It is now derived from the quaternionic structure of the Hopf fibration, not imported from QFT.
 
@@ -130,5 +138,6 @@ The framework's remaining tests are:
 
 ---
 
-*This document reflects the epistemic status as of December 2025.*
+*This document reflects the epistemic status as of April 2026.*
 *Updated: Factor 4 promoted from Tier 3 to Tier 2 via quaternionic derivation.*
+*Updated 2026-04-08: Added measurement algebra, Born saturation, KZ chain, generations, Bell evasion, emergent gravity, collision-limit spectral program.*

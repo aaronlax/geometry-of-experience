@@ -11,12 +11,17 @@ This repo is a public safety-net mirror for dated claims. It is not the full can
 Current public scope:
 - N=3 selection, bridge equation, and constant-derivation line
 - Hopf / Fisher / Berry / parafermion proofs that are stable enough to timestamp publicly
+- Complete measurement theory: pointer directions (algebra) + outcome weights (Born rule)
+- Collision-limit spectral theory: McGehee cone, KZ Fibonacci bundle, systematic Abelian closures
+- Topological structure: generations from b₁=3, KZ chain to Fibonacci braiding, Bell evasion from Hopf linking
+- Emergent gravity from Fisher metric
 - Dated research notes for active lines that are not yet formal papers
-- Small `N=3` geometry notes that clarify pairwise baselines and shape-sphere structure
 
 Current boundary:
 - The constants program is documented here
-- The newer activation / retention / reconciliation line is public here only as a dated note, not as a full derivation package
+- The collision-limit spectral framework (distinct from the Barbour/Lourenço collaboration) is documented here
+- The activation / retention / reconciliation line is public here only as a dated note
+- Implementation details connecting to Ontigon products are NOT here
 
 ## Key Results
 
@@ -31,17 +36,23 @@ Current boundary:
 
 ## Current Research Frontier
 
-As of 2026-03-28, the active bridge beyond the constants program is:
+As of 2026-04-08, three lines beyond the constants program:
 
-1. Bare endogenous self-loop gives activation, not memory.
-2. Bare measurement channel gives retention, not activation.
-3. Their composite gives both pointer preservation and coherence decay.
-4. A scalar write-strength field can be built from activation and retention together.
-5. Alignment of that field with the shape-space complexity gradient is structurally promising, but the parameter map is not yet fully derived.
+### Measurement Theory (supports arXiv quant-ph submission)
+- Pointer directions from measurement algebra factorization: [paper/measurement_algebra_factorization_note_2026_04.md](paper/measurement_algebra_factorization_note_2026_04.md)
+- Born rule uniqueness via Cramér-Rao saturation: [proofs/born_rule_derivation.py](proofs/born_rule_derivation.py)
 
-See [paper/structural_bridge_note_2026_03.md](paper/structural_bridge_note_2026_03.md).
+### Collision-Limit Spectral Theory (independent hydrogen program)
+- McGehee cone, KZ bundle, Abelian closures, hidden-symmetry matching: [paper/collision_limit_spectral_structure_note_2026_04.md](paper/collision_limit_spectral_structure_note_2026_04.md)
+- KZ chain from Fuchsian regularity to Fibonacci braiding: [paper/chern_simons_from_collision_regularity_note_2026_04.md](paper/chern_simons_from_collision_regularity_note_2026_04.md)
 
-Recent `N=3` geometry notes:
+### Broader Framework
+- Three generations from collision topology: [paper/generations_from_collision_topology_note_2026_04.md](paper/generations_from_collision_topology_note_2026_04.md)
+- Bell violations from Hopf linking: [paper/bell_evasion_hopf_linking_note_2026_04.md](paper/bell_evasion_hopf_linking_note_2026_04.md)
+- Emergent gravity from Fisher metric: [paper/emergent_gravity_fisher_note_2026_04.md](paper/emergent_gravity_fisher_note_2026_04.md)
+- Activation/retention/reconciliation: [paper/structural_bridge_note_2026_03.md](paper/structural_bridge_note_2026_03.md)
+
+### N=3 Geometry Baselines
 - [paper/neutral_three_body_coulomb_note_2026_04.md](paper/neutral_three_body_coulomb_note_2026_04.md)
 - [paper/pairwise_vs_collective_n3_note_2026_04.md](paper/pairwise_vs_collective_n3_note_2026_04.md)
 
@@ -189,22 +200,35 @@ See [`proofs/hbar_derivation.py`](proofs/hbar_derivation.py).
 geometry-of-experience/
 ├── README.md                              # This file
 ├── CONFIDENCE_TIERS.md                    # Epistemological status of all claims
+├── PRIOR_ART.md                           # Prior art acknowledgments & novelty claims
 ├── CHANGELOG.md                           # Version history (no post-hoc edits)
 ├── LICENSE                                # MIT License
 ├── paper/
-│   └── emergence_of_constants.md          # Main paper
-│   └── structural_bridge_note_2026_03.md  # Dated research note
-│   └── neutral_three_body_coulomb_note_2026_04.md   # Neutral pairwise Coulomb baseline on N=3
-│   └── pairwise_vs_collective_n3_note_2026_04.md    # Structural split on N=3 shape space
+│   ├── emergence_of_constants.md                              # Main paper
+│   ├── structural_bridge_note_2026_03.md                      # Activation/retention/reconciliation
+│   ├── neutral_three_body_coulomb_note_2026_04.md             # Neutral Coulomb baseline
+│   ├── pairwise_vs_collective_n3_note_2026_04.md              # Pairwise/collective split
+│   ├── measurement_algebra_factorization_note_2026_04.md      # Pointer directions [NEW]
+│   ├── collision_limit_spectral_structure_note_2026_04.md     # McGehee cone + KZ [NEW]
+│   ├── chern_simons_from_collision_regularity_note_2026_04.md # Fuchsian → Fibonacci [NEW]
+│   ├── generations_from_collision_topology_note_2026_04.md    # b₁=3 generations [NEW]
+│   ├── bell_evasion_hopf_linking_note_2026_04.md              # Bell from Hopf [NEW]
+│   └── emergent_gravity_fisher_note_2026_04.md                # Gravity from Fisher [NEW]
 ├── proofs/
-│   ├── hessian_eigenvalue_n3.py           # Theorem 2: λ_max/λ_min = 3
-│   ├── hbar_derivation.py                 # Theorem 4: ℏ = J_min from first principles
-│   ├── quantum_amplification.py           # Theorem 5: E_quantum = 3 × E_classical
+│   ├── hessian_eigenvalue_n3.py           # λ_max/λ_min = 3
+│   ├── hbar_derivation.py                 # ℏ = J_min from first principles
+│   ├── quantum_amplification.py           # E_quantum = 3 × E_classical
 │   ├── tsirelson_bound.py                 # CHSH_max = 2√2 from monogamy
-│   ├── eight_pi_squared_origins.py        # 8π², 1/(2π) screening, factor 4 status
-│   ├── z2_entropy_derivation.py           # Why ln(2) appears in θ_W
+│   ├── eight_pi_squared_origins.py        # 8π², 1/(2π), factor 4
+│   ├── z2_entropy_derivation.py           # ln(2) from Z₂ symmetry
 │   ├── koide_relations.py                 # Koide Q = 2×J_min, θ = 2×J_min²
-│   └── hall_reginatto_validation.py       # T/I_F = 1/8 consistency check
+│   ├── hall_reginatto_validation.py       # T/I_F = 1/8 consistency
+│   ├── born_rule_derivation.py            # Born rule + Cramér-Rao saturation [UPDATED]
+│   ├── measurement_algebra_factorization.py # Support/rate factorization [NEW]
+│   ├── berry_phase_holonomy.py            # Berry phase from shape space
+│   ├── parafermion_eta.py                 # η = 1/15 from Z₃ CFT
+│   ├── z3_parafermion_eta.py              # Z₃ vs Ising comparison
+│   └── modular_data_mcg.py               # Modular data from MCG action
 └── preregistrations/
     └── predictions_v1.md                  # Timestamped predictions
 ```
