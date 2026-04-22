@@ -240,10 +240,20 @@ THE DERIVATION OF hbar = J_min:
 5. CONSEQUENCE:
    For N = 3: hbar = 2/6 = 1/3 = J_min
 
-The bridge hypothesis hbar = J_min is NOT an arbitrary assumption.
-It is a DERIVED CONSEQUENCE of the selection principle 2N = N!.
+The script shows that the chosen geometric and information normalizations
+coincide at N = 3:
+   - hbar normalized via V_fund / pi^2 = 2/N!
+   - J_min normalized via chosen Hessian measure giving 1/N
+   - Equality requires 2N = N!, which holds uniquely at N = 3.
 
-STATUS: PROVEN
+This is a consistency check between two independently chosen normalizations,
+not a proof that the bridge is forced from deeper principles. The P1 vault's
+canonical statement (02_CLAIMS/Axioms/A_BridgeEquation.md) treats hbar == J_min
+as a primitive postulate ("this is the law, not derived"). A non-circular
+derivation route is specified as an open gap in
+02_CLAIMS/Gaps/G_BridgeFromOperatorData.md.
+
+STATUS: CONDITIONAL / CONSISTENCY CHECK
 """)
 
 print("=" * 70)
